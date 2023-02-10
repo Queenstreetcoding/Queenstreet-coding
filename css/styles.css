@@ -82,10 +82,54 @@ h3 {
     color: var(--highlight-color)!important;
 }
 
-.portfolio-section {
-    display: relative;
-    padding: 60px 50px 30px 50px;
-    text-align: center;
+
+.navigation-boxes {
+    display: block;
+    margin: 0 auto;
+    padding: 70px;
     background-color: var(--darkblue-color);
-    background-size: cover;
+}
+
+.blue-section {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+    background: var(--lightblue-color);
+}
+
+.blue-section a{
+    display: flex;
+    justify-content: center;
+    color: var(--highlight-color);
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.blue-section:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.pink-section {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+    background: var(--highlight-color);
+}
+
+.pink-section a{
+    display: flex;
+    justify-content: center;
+    color: var(--darkblue-color);
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pink-section:hover{
+    opacity: 50%;
+    cursor: pointer;
 }
