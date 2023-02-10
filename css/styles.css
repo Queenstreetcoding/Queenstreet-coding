@@ -92,6 +92,7 @@ h3 {
 
 .blue-section {
     display: flex;
+    justify-content: center;
     margin: 0 auto;
     padding: 50px;
     background: var(--lightblue-color);
@@ -114,6 +115,7 @@ h3 {
 
 .pink-section {
     display: flex;
+    justify-content: center;
     margin: 0 auto;
     padding: 50px;
     background: var(--highlight-color);
