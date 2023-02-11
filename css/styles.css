@@ -6,6 +6,15 @@
     --box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
 
+@media (max-width:576px){
+    .blue-section {
+        display: flex;
+        margin: 10px auto;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 body {
     background-size: cover;
     background-attachment: fixed;
@@ -25,10 +34,12 @@ h1 {
 
 h2 {
     display: block;
-    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0 50px;
     font-family: 'Crimson Text', serif;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 200;
+    text-align: center;
     color: var(--highlight-color);
 }
 
@@ -63,6 +74,13 @@ h3 {
     justify-content: center;
 }
 
+.bi-lightbulb-off {
+    display: flex;
+    margin: 0 40px;
+    justify-content: center;
+    color: var(--highlight-color);
+}
+
 .button-down{
     display: flex;
     justify-content: center;
@@ -94,15 +112,16 @@ h3 {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 50px;
+    padding: 50px 50px;
     background: var(--lightblue-color);
+    border-color: var(--highlight-color)!important;
 }
 
 .blue-section a{
     display: flex;
     justify-content: center;
-    color: var(--highlight-color);
-    font-size: 17px;
+    color: var(--light-color);
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     text-decoration: none;
@@ -113,25 +132,32 @@ h3 {
     cursor: pointer;
 }
 
-.pink-section {
+.bi-person-circle, 
+.bi-window-sidebar,
+.bi-tools,
+.bi-envelope-paper {
     display: flex;
+    margin-bottom: 15px;
     justify-content: center;
-    margin: 0 auto;
-    padding: 50px;
-    background: var(--highlight-color);
+    color: var(--light-color);
 }
 
-.pink-section a{
+footer {
     display: flex;
     justify-content: center;
+    padding: 50px auto;
+    background-color: var(--lightblue-color);
+}
+
+.contact-me {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    gap: 40px;
     color: var(--darkblue-color);
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    text-decoration: none;
 }
 
-.pink-section:hover{
-    opacity: 50%;
+.contact-icon:hover{
+    color: var(--highlight-color);
     cursor: pointer;
 }
