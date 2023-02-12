@@ -229,3 +229,29 @@ h4 {
     opacity: 50%;
     cursor: pointer;
 }
+
+.bi-arrow-right-circle {
+    display: flex;
+    padding-bottom: 60px;
+    color: var(--darkblue-color);
+}
+
+.whats-next {
+    display: block;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: var(--light-color);
+}
+
+.skills {
+    display: block;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: var(--highlight-color);
+}
+
+.next-text{
+    padding: 20px;
+    color: var(--lightblue-color);
+}
+
