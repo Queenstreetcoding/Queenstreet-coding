@@ -13,22 +13,18 @@
         justify-content: center;
         text-align: center;
     }
-
-    .bi-lightbulb-off {
-     display: none;
-    }
-
-    .pic-cindy {
-        display: none;
-    }
-
+}
+.container{
+    margin: 0 auto;
 }
 
-body {
+.main-picture {
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/065/900/original/pexels-jess-loiterton-4602277.jpg?1675602496);
+    background-image: url("/img/backgroundfirstpage.jpg");
+    background-repeat: none;
 }
+
 
 h1 {
     display: block;
@@ -109,11 +105,10 @@ h3 {
     color: var(--highlight-color)!important;
 }
 
-
 .navigation-boxes {
     display: block;
     margin: 0 auto;
-    padding: 40px;
+    padding: 60px;
     background-color: var(--darkblue-color);
 }
 
@@ -130,10 +125,9 @@ h3 {
     font-family: 'Poppins', sans-serif;
     color: var(--light-color);
     justify-content: center;
-    margin: 0 auto;
+    margin-bottom: 20px;
     text-align: center;
 }
-
 
 .about-me {
     margin: 0 auto;
