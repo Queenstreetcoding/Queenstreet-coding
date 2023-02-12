@@ -13,6 +13,15 @@
         justify-content: center;
         text-align: center;
     }
+
+    .bi-lightbulb-off {
+     display: none;
+    }
+
+    .pic-cindy {
+        display: none;
+    }
+
 }
 
 body {
@@ -104,42 +113,48 @@ h3 {
 .navigation-boxes {
     display: block;
     margin: 0 auto;
-    padding: 70px;
+    padding: 40px;
     background-color: var(--darkblue-color);
 }
 
-.blue-section {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 50px 50px;
-    background: var(--lightblue-color);
-    border-color: var(--highlight-color)!important;
-}
-
-.blue-section a{
-    display: flex;
-    justify-content: center;
-    color: var(--light-color);
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    text-decoration: none;
-}
-
-.blue-section:hover{
-    opacity: 50%;
-    cursor: pointer;
-}
-
-.bi-person-circle, 
 .bi-window-sidebar,
 .bi-tools,
 .bi-envelope-paper {
     display: flex;
-    margin-bottom: 15px;
-    justify-content: center;
+    margin: 20px;
+    justify-content: space-around;
     color: var(--light-color);
+}
+
+.nav-text{
+    font-family: 'Poppins', sans-serif;
+    color: var(--light-color);
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.about-me {
+    margin: 0 auto;
+    padding: 60px;
+    background-color: var(--lightblue-color);
+}
+
+.pic-cindy {
+    display: flex;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow);
+}
+
+.about-text {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--light-color);
+    line-height: 1,5px;
+    font-weight: 200;
 }
 
 footer {
@@ -155,6 +170,7 @@ footer {
     flex-direction: row;
     gap: 40px;
     color: var(--darkblue-color);
+    justify-content: center;
 }
 
 .contact-icon:hover{

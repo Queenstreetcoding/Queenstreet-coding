@@ -13,13 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Queenstreet Coding</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <i class="bi bi-lightbulb-off" style="font-size: 25px;"></i>
-        <div class="container p-2">
+        <div class="container">
           <a class="navbar-brand" href="#">Queenstreet Coding</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -49,61 +49,79 @@
       <h3>Front-end Developer based in Delft, the Netherlands</h3>
     </div>
       <div class="button-down">
-        <a href="/index.html#navigation-boxes">
+        <a href="/index.html#about-me">
         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-chevron-double-down arrow-down" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
           <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
         </svg></a>
       </div>
-      <section class="navigation-boxes" id="navigation-boxes">
-        <h2>Have a look around!</h2>
-        <div class="row gap-3">
-          <div class="col-sm-3 border border-danger p-3 shadow rounded blue-section">
-            <div>
-            <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
-            <a href="#">About me</a>
+      <section class="about-me" id="about-me">
+        <h2>About me</h2>
+        <div class="row">
+          <div class="col-sm-6 justify-content-center">
+            <img src="/img/cvb.jpg" class="img-fluid pic-cindy" alt="Photo Cindy Verboog" width="400px">
           </div>
-          </div>
-          <div class="col-sm-3 border border-danger p-3 shadow rounded blue-section">
-            <div>
-              <div>
-            <i class="bi bi-window-sidebar" style="font-size: 2rem;"></i></i>
-          </div>
-          <div>
-            <a href="#">Portfolio</a>
-          </div>
-        </div>
-          </div>
-          <div class="col-sm-3 border border-danger p-3 shadow rounded blue-section">
-            <div>
-            <i class="bi bi-tools" style="font-size: 2rem;"></i>
-            <a href="#">Skills</a>
-          </div>
-          </div>
-          <div class="col-sm-3 border border-danger p-3 shadow rounded blue-section">
-            <div>
-            <i class="bi bi-envelope-paper" style="font-size: 2rem;"></i></i>
-            <a href="#">Contact me</a>
-          </div>
+          <div class="col-sm-6">
+            <p class="about-text">Hi,  <br/>
+              Welcome and thank you for checking my website.
+              I'm Cindy and I'm a student Front-end Developer based in the Netherlands.
+              <br/>
+              <br/>
+              After graduating as a graphic designer in 2008, unfortunately, because of the financial crisis I was never able to work in the field.
+              I have done a lot of administrative work in the past couple of years, of which my last work is as the Executive Secretary in an international company.
+              I got the oppertunity to to work with SAP Crystal Reports and SQL, which is where my love for coding began.
+              <br/>
+              <br/>
+              After deciding on a carrier switch to finaly do what I love to do, I started my studies in July of 2022.
+              At the moment I'm looking for an internship to further my knowledge and grow into a confident Front-end Developer.
+              <br/>
+              <br/>
+              Feel free to roam around on my website and contact me with any questions.<br/>
+              <br/>
+              <br/>Cindy
+            </p>
           </div>
         </div>
       </section>
-      <footer>
-        <div class="contact-me">
-          <div class="contact-icon">
-            <i class="bi bi-envelope-at" style="font-size: 2rem;"></i>
-          </div>
-          <div class="contact-icon">
-            <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
-          </div>
-          <div class="contact-icon">
-            <i class="bi bi-github" style="font-size: 2rem;"></i>
-          </div>
-          <div class="contact-icon">
-            <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+      <section class="navigation-boxes" id="navigation-boxes">
+        <h2>Have a look around!</h2>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-4">
+              <i class="bi bi-window-sidebar" style="font-size: 40px"></i>
+            </div>
+            <div class="col-sm-4">
+              <i class="bi bi-tools" style="font-size: 40px"></i>
+            </div>
+            <div class="col-sm-4">
+              <i class="bi bi-envelope-paper" style="font-size: 40px"></i>
+            </div>
           </div>
         </div>
+      </div>
+      <div class="col-sm">
+      </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+        <div class="contact-me">
+          <div class="contact-icon">
+            <i class="bi bi-envelope-at" style="font-size: 32px"></i>
+          </div>
+          <div class="contact-icon">
+            <i class="bi bi-linkedin" style="font-size: 32px"></i>
+          </div>
+          <div class="contact-icon">
+            <i class="bi bi-github" style="font-size: 32px"></i>
+          </div>
+          <div class="contact-icon">
+            <i class="bi bi-facebook" style="font-size: 32px"></i>
+          </div>
+        </div>
+      </div>
       </footer>
     </div>  
 </body>
 </html>
+
