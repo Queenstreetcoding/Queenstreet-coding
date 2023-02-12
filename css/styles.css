@@ -6,16 +6,11 @@
     --box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
 
-@media (max-width: 576px){
+@media(max-width: 576px){
     .blue-section {
         display: flex;
         margin: 10px auto;
         justify-content: center;
-        text-align: center;
-    }
-
-    .case-one-image,
-    .case-two-image {
         text-align: center;
     }
 }
@@ -24,12 +19,12 @@
 }
 
 .main-picture {
+    padding: 90px 0;
     background-size: cover;
     background-attachment: fixed;
     background-image: url("/img/backgroundfirstpage.jpg");
     background-repeat: none;
 }
-
 
 h1 {
     display: block;
@@ -71,6 +66,10 @@ h3 {
 
 .navbar-brand {
     color: var(--highlight-color);
+}
+
+.navbar-brand:hover{
+    color: var(--darkblue-color);
 }
 
 .nav-link {
@@ -188,21 +187,20 @@ h4 {
     font-family: 'Crimson Text', serif;
     font-size: 30px;
     font-weight: 200;
-    text-align: right;
     color: var(--highlight-color);
 }
 
 .case-one-text {
-    padding-right: 0 30px;
+    padding-right: 30px;
     font-family: 'Poppins', sans-serif;
-    text-align: right;
+    text-align: left;
     color: var(--light-color);
     line-height: 1,5px;
     font-weight: 200;
 }
 
 .case-one-image {
-    margin-left: 30px;
+    margin-left: 100px;
     max-width: 400px;
     border-color: var(--highlight-color)!important;
 }
@@ -222,6 +220,7 @@ h4 {
 }
 
 .case-two-image {
+    margin-left: 100px;
     max-width: 400px;
     border-color: var(--highlight-color)!important;
 }
