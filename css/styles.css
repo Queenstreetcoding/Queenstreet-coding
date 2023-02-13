@@ -7,19 +7,22 @@
 }
 
 @media(max-width: 576px){
-    .blue-section {
-        display: flex;
-        margin: 10px auto;
-        justify-content: center;
-        text-align: center;
-    }
+ 
 }
 .container{
     margin: 0 auto;
 }
 
 .main-picture {
-    padding: 90px 0;
+    padding: 10px 0;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-image: url("/img/backgroundfirstpage.jpg");
+    background-repeat: none;
+}
+
+.sub-picture {
+    padding: 10px 0 200px 0;
     background-size: cover;
     background-attachment: fixed;
     background-image: url("/img/backgroundfirstpage.jpg");
@@ -39,7 +42,7 @@ h1 {
 
 h2 {
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     padding: 0 50px;
     font-family: 'Crimson Text', serif;
     font-size: 50px;
@@ -232,7 +235,7 @@ h4 {
 
 .bi-arrow-right-circle {
     display: flex;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     color: var(--darkblue-color);
 }
 
@@ -255,3 +258,6 @@ h4 {
     color: var(--lightblue-color);
 }
 
+.skills-logo {
+    padding: 30px;
+}
