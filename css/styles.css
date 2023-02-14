@@ -9,25 +9,33 @@
 @media(max-width: 576px){
  
 }
-.container{
+
+body{
     margin: 0 auto;
 }
 
-.main-picture {
-    padding: 10px 0;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-image: url("/img/backgroundfirstpage.jpg");
-    background-repeat: none;
-}
-
-.sub-picture {
-    padding: 10px 0 200px 0;
+.background-image {
+    height: 75vh;
+    width: 100vw;
+    position: relative;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: 50% 50%;
     background-image: url("/img/backgroundfirstpage.jpg");
-    background-repeat: none;
-}
+  }
+
+
+  .main-picture {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
 h1 {
     display: block;
