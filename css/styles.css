@@ -7,8 +7,19 @@
 }
 
 @media(max-width: 576px){
-    .nav-icon {
-        margin: 20px;
+        h1 {
+            font-size: 70px;
+        }
+        .nav-icon {
+            margin: 20px;
+        }
+
+    .case-one-image
+    .case-two-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 250px;
+        border-color: var(--highlight-color)!important;
     }
 }
 
@@ -17,7 +28,7 @@ body{
 }
 
 .background-image {
-    height: 75vh;
+    height: 70vh;
     width: 100vw;
     position: relative;
     background-size: cover;
@@ -141,7 +152,7 @@ h3 {
 
 .about-me {
     margin: 0 auto;
-    padding: 60px;
+    padding: 40px;
     background-color: var(--lightblue-color);
 }
 
@@ -267,6 +278,11 @@ h4 {
     background-color: var(--light-color);
 }
 
+.next-text{
+    padding: 20px;
+    color: var(--lightblue-color);
+}
+
 .skills {
     display: block;
     margin: 0 auto;
@@ -274,11 +290,8 @@ h4 {
     background-color: var(--highlight-color);
 }
 
-.next-text{
-    padding: 20px;
-    color: var(--lightblue-color);
-}
-
-.skills-logo {
-    padding: 30px;
+.skills-icon img{
+    display: block;
+    margin: 10px auto;
+    width: 120px;
 }
