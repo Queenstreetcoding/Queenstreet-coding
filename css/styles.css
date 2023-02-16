@@ -6,7 +6,7 @@
     --box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
 
-@media(max-width: 576px){
+@media(max-width: 600px){
         h1 {
             font-size: 70px;
         }
@@ -14,13 +14,23 @@
             margin: 20px;
         }
 
-    .case-one-image
-    .case-two-image {
-        display: block;
-        margin: 0 auto;
-        max-width: 250px;
-        border-color: var(--highlight-color)!important;
-    }
+         .case-one-image
+         .case-two-image {
+            display: block;
+            margin: 0 auto;
+            padding: 0px;
+            max-width: 250px;
+            border-color: var(--highlight-color)!important;
+      }
+
+        .background-image-contact{
+            height: 50vh;
+            width: 100vw;
+            position: relative;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-image: url("/img/backgroundfirstpage.jpg");
+        }
 }
 
 body{
@@ -33,6 +43,15 @@ body{
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
+    background-image: url("/img/backgroundfirstpage.jpg");
+  }
+
+  .background-image-contact {
+    height: 40vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 20% 80%;
     background-image: url("/img/backgroundfirstpage.jpg");
   }
 
@@ -135,7 +154,8 @@ h3 {
 
 .bi-window-sidebar,
 .bi-tools,
-.bi-envelope-paper {
+.bi-envelope-paper,
+.btn-outline-danger {
     display: flex;
     margin: 20px;
     justify-content: space-around;
@@ -294,4 +314,27 @@ h4 {
     display: block;
     margin: 10px auto;
     width: 120px;
+}
+
+.contact-section {
+    display: block;
+    margin: 0 auto;
+    padding: 44px;
+    background-color: var(--darkblue-color);
+}
+
+.contact-text{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.form-label {
+    padding-top: 10px;
+    color: var(--highlight-color);
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 70px;
 }
