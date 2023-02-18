@@ -10,31 +10,13 @@
 
 }
 
-@media(max-width: 600px){
-        h1 {
-            font-size: 70px;
-        }
-        .nav-icon {
-            margin: 20px;
-        }
-
-        .background-image-contact{
-            height: 50vh;
-            width: 100vw;
-            position: relative;
-            background-size: cover;
-            background-position: 50% 50%;
-            background-image: url("/img/backgroundfirstpage.jpg");
-        }
-}
-
 body{
     margin: 0 auto;
 }
 
 .background-image {
     height: 70vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
@@ -42,11 +24,11 @@ body{
   }
 
   .background-image-contact {
-    height: 40vh;
-    width: 100vw;
+    height:40vh;
+    width: 100%;
     position: relative;
     background-size: cover;
-    background-position: 20% 80%;
+    background-position: 50% 50%;
     background-image: url("/img/backgroundfirstpage.jpg");
   }
 
@@ -73,6 +55,12 @@ h1 {
     font-weight: 600;
     font-size: 90px;
     color: var(--highlight-color);
+}
+
+.background-image-contact h1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 h2 {
@@ -173,7 +161,8 @@ h3 {
 .bi-window-sidebar,
 .bi-tools,
 .bi-envelope-paper,
-.btn-outline-danger {
+.btn-outline-danger
+.bi-book {
     display: flex;
     margin: 20px;
     justify-content: space-around;
@@ -197,13 +186,6 @@ h3 {
 
 .btn-outline-danger:hover{
     background-color: var(--highlight-color)!important;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 50px auto;
-    background-color: var(--lightblue-color);
 }
 
 .contact-me {
@@ -243,6 +225,15 @@ h4 {
 .project-description {
     padding: 20px;
     color: var(--light-color);
+    font-family: var(--plain-text);
+    line-height: 1,5px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.project-description p {
+    color: var(--light-color);
+    line-height: 1.5;
 }
 
 .project-image {
@@ -255,8 +246,34 @@ h4 {
     cursor: pointer;
 }
 
+.portfolio h2 {
+    color: var(--light-color);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.eduction{
+    background-color: var(--lightblue-color);
+}
+
+.education h2 {
+    color: var(--light-color);
+    text-align: left;
+}
+
+.education-text {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-family: var(--plain-text);
+    color: var(--light-color);
+    line-height: 1,5px;
+    font-weight: 200;
+}
+
 .bi-arrow-right-circle {
     display: flex;
+    justify-content: center;
     padding-bottom: 50px;
     color: var(--darkblue-color);
 }
@@ -286,16 +303,28 @@ h4 {
     width: 120px;
 }
 
+.whats-next h2 {
+    color: var(--darkblue-color);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.skills h2 {
+    color: var(--light-color);
+    font-size: 30px;
+    font-weight: 600;
+}
+
 .contact-section {
     display: block;
     margin: 0 auto;
-    padding: 44px;
+    padding: 49px;
     background-color: var(--darkblue-color);
 }
 
 .contact-text{
     text-align: center;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .form-label {
@@ -306,5 +335,41 @@ h4 {
 form {
     display: block;
     margin: 0 auto;
-    padding-bottom: 70px;
+    padding: 30px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px auto;
+    background-color: var(--lightblue-color);
+}
+
+.footer-text{
+    display: block;
+    margin: 0 auto;
+    background-color: var(--lightblue-color);
+    color: var(--darkblue-color);
+    text-align: center;
+    font-size: 14px
+}
+
+
+@media(max-width: 600px){
+    h1 {
+        font-size: 70px;
+    }
+    .nav-icon {
+        margin: 20px;
+    }
+
+    .background-image-contact{
+        height: 50vh;
+        width: 100vw;
+        position: relative;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-image: url("/img/backgroundfirstpage.jpg");
+    }
+
 }
