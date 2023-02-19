@@ -49,18 +49,15 @@ body{
     top: 0;
     left: 0;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
   }
 
 h1 {
     display: block;
     margin: 0 auto;
-    padding: 140px 0 0 0 !important;
+    padding: 200px 0 0 150px !important;
     font-family: var(--header-text);
-    text-align: center;
+    text-align: left;
     font-weight: 600;
     font-size: 90px;
     color: var(--highlight-color);
@@ -86,12 +83,12 @@ h2 {
 h3 {
     display: block;
     margin: 0 auto;
-    padding: 40px 0 80px 0 !important;
+    padding: 40px 0 80px 150px !important;
     font-family: var(--plain-text);
-    text-align: center;
+    text-align: left;
     font-weight: 400;
     font-size: 30px;
-    color: var(--lightblue-color);
+    color: #c24646;
 }
 
 h4 {
@@ -137,17 +134,13 @@ a:hover {
 }
 
 .button-down{
-    display: flex;
-    justify-content: center;
-    padding: 10px 50px 120px 50px;;
+    padding: 10px 50px 120px 470px;;
     color: var(--lightblue-color)!important;
     transition: all 400ms;
 }
 
 .button-down:hover{
-    display: flex;
-    justify-content: center;
-    padding: 80px 50px 50px 50px;;
+    padding: 80px 50px 50px 470px;;
     color: var(--highlight-color)!important;
 }
 
@@ -356,8 +349,16 @@ footer {
 
 @media(max-width: 600px){
     h1 {
+        padding: 20px!important;
         font-size: 70px;
+        text-align: center;
     }
+
+    h3 {
+        padding: 20px !important;
+        text-align: center;
+    }
+
     .nav-icon {
         margin: 20px;
     }
@@ -369,6 +370,10 @@ footer {
         background-size: cover;
         background-position: 50% 50%;
         background-image: url("/img/backgroundfirstpage.jpg");
+    }
+
+    .button-down{
+        display: none;
     }
 
     .shecodes-logo{
