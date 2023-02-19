@@ -374,7 +374,7 @@ footer {
     }
 
     .background-box {
-        margin-top: 400px;
+        margin-top: 350px;
         padding: 10px;
         max-width: 400px;
         background: rgba(255, 255, 255, 0.5);
@@ -410,6 +410,30 @@ footer {
 
 }
 
+@media(max-width: 850px){
+    h1 {
+        margin: 0 auto;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    h3 {
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 25px;
+        text-align: center;
+        color: var(--lightblue-color);
+    }
+
+    .background-box {
+        margin-top: 350px;
+        padding: 10px;
+        max-width: 400px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+}
+
 @media(max-width: 1080px) {
     h1 {
         margin: 0 auto;
@@ -426,6 +450,7 @@ footer {
     }
 
     .background-box {
+        margin-top: 350px;
         padding: 10px;
         background: rgba(255, 255, 255, 0.5);
     }
