@@ -54,8 +54,7 @@ body{
 
 h1 {
     display: block;
-    margin: 0 auto;
-    padding: 170px 0 0 150px !important;
+    margin: 80px 50px 0 150px;
     font-family: var(--header-text);
     text-align: left;
     font-weight: 600;
@@ -76,13 +75,18 @@ h2 {
 
 h3 {
     display: block;
-    margin: 0 auto;
-    padding: 40px 0 80px 150px !important;
+    margin: 0 50px 80px 150px;
     font-family: var(--plain-text);
     text-align: left;
     font-weight: 400;
     font-size: 30px;
-    color: var(--lightblue-color);
+    color: var(--darkblue-color);
+}
+
+.background-box {
+    float: left;
+    margin: 150px 0;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 h4 {
@@ -128,6 +132,7 @@ a:hover {
 }
 
 .button-down{
+    float: left;
     padding: 10px 50px 120px 470px;;
     color: var(--lightblue-color)!important;
     transition: all 400ms;
@@ -358,19 +363,28 @@ footer {
 
 @media(max-width: 600px){
     h1 {
-        padding: 370px 0 0 0 !important;
-        font-size: 70px;
+        margin: 0 auto;
+        font-size: 45px;
         text-align: center;
     }
 
     h3 {
-        padding: 20px !important;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 25px;
         text-align: center;
         color: var(--lightblue-color);
     }
 
     .nav-icon {
         margin: 20px;
+    }
+
+    .background-box {
+        margin: 390px 20px 20px 20px;
+        padding: 10px;
+        max-width: 400px;
+        background: rgba(255, 255, 255, 0.5);
     }
 
     .background-image-contact{
