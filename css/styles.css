@@ -15,21 +15,30 @@ body{
 }
 
 .background-image {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     position: relative;
     background-size: cover;
-    background-position: 50% 50%;
-    background-image: url("/img/backgroundfirstpage.jpg");
+    background-position: 70% 30%;
+    background-image: url("/img/cindy.jpg");
+  }
+
+  .background-image-portfolio {
+    height:70vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: 80% 20%;
+    background-image: url("/img/cindycode.jpg");
   }
 
   .background-image-contact {
-    height:40vh;
+    height:50vh;
     width: 100%;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url("/img/backgroundfirstpage.jpg");
+    background-image: url("/img/cindycontact.jpg");
   }
 
 
@@ -241,6 +250,7 @@ a:hover {
     padding: 50px;
     background-color: var(--lightblue-color);
 }
+
 
 .education-text {
     display: flex;
