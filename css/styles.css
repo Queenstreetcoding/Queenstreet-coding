@@ -55,18 +55,12 @@ body{
 h1 {
     display: block;
     margin: 0 auto;
-    padding: 200px 0 0 150px !important;
+    padding: 170px 0 0 150px !important;
     font-family: var(--header-text);
     text-align: left;
     font-weight: 600;
     font-size: 90px;
     color: var(--highlight-color);
-}
-
-.background-image-contact h1 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
 }
 
 h2 {
@@ -88,7 +82,7 @@ h3 {
     text-align: left;
     font-weight: 400;
     font-size: 30px;
-    color: #c24646;
+    color: var(--lightblue-color);
 }
 
 h4 {
@@ -301,13 +295,26 @@ a:hover {
 .contact-section {
     display: block;
     margin: 0 auto;
-    padding: 49px;
+    padding: 20px;
     background-color: var(--darkblue-color);
 }
 
-.contact-text{
+.contact-items {
+    padding-top: 50px;
+}
+
+li{ 
+    padding: 10px;
     text-align: center;
-    padding-top: 20px;
+    font-family: var(--plain-text);
+    color: var(--light-color);
+    list-style-type: none;
+}
+
+li:hover{ 
+
+    color: var(--highlight-color);
+
 }
 
 .form-label {
@@ -330,6 +337,8 @@ form {
     justify-content: center;
 }
 
+
+
 footer {
     display: flex;
     justify-content: center;
@@ -349,7 +358,7 @@ footer {
 
 @media(max-width: 600px){
     h1 {
-        padding: 20px!important;
+        padding: 370px 0 0 0 !important;
         font-size: 70px;
         text-align: center;
     }
@@ -357,6 +366,7 @@ footer {
     h3 {
         padding: 20px !important;
         text-align: center;
+        color: var(--lightblue-color);
     }
 
     .nav-icon {
@@ -369,7 +379,7 @@ footer {
         position: relative;
         background-size: cover;
         background-position: 50% 50%;
-        background-image: url("/img/backgroundfirstpage.jpg");
+        background-image: url("/img/cindycontact.jpg");
     }
 
     .button-down{
@@ -380,4 +390,15 @@ footer {
         padding: 0;
         justify-content: center;
     }
+
+    .contact-section {
+        justify-content: center;
+    }
+
+    ul, li{
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
 }
