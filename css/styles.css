@@ -7,7 +7,6 @@
 
     --header-text: 'Crimson Text', serif;
     --plain-text:'Poppins', sans-serif;
-
 }
 
 body{
@@ -23,23 +22,23 @@ body{
     background-image: url("/img/cindy.jpg");
   }
 
-  .background-image-portfolio {
+.background-image-portfolio {
     height:80vh;
     width: 100%;
     position: relative;
     background-size: cover;
     background-position: 70% 30%;
     background-image: url("/img/cindycode.jpg");
-  }
+}
 
-  .background-image-contact {
+.background-image-contact {
     height:80vh;
     width: 100%;
     position: relative;
     background-size: cover;
     background-position: 70% 30%;
     background-image: url("/img/cindycontact.jpg");
-  }
+}
 
 h1 {
     display: block;
@@ -102,44 +101,28 @@ a:hover {
     cursor: pointer;
 }
 
-.navbar {
+nav .navbar {
     background: white;
     box-shadow: var(--box-shadow);
 }
 
-.navbar-brand {
+nav .navbar-brand {
     color: var(--highlight-color);
 }
 
-.navbar-brand:hover{
+nav .navbar-brand:hover{
     color: var(--darkblue-color);
 }
 
-.nav-link {
+nav .nav-link {
     color: var(--darkblue-color);
 }
 
-.navigation-links{
+nav .navigation-links{
     display: flex;
     gap: 20px;
     padding: 40px 30px;
     justify-content: center;
-}
-
-.button-down{
-    float: left;
-    padding: 10px 50px 120px 470px;;
-    color: var(--lightblue-color)!important;
-    transition: all 400ms;
-}
-
-.button-down:hover{
-    padding: 80px 50px 50px 470px;;
-    color: var(--highlight-color)!important;
-}
-
-.button-down a:visited {
-    color: var(--highlight-color)!important;
 }
 
 .about-me {
@@ -336,7 +319,6 @@ form {
     color: var(--darkblue-color);
     justify-content: center;
 }
-
 
 
 footer {
